@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JSIDCard"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "JSIDCard."
 
   # This description is used to generate tags and improve search results.
