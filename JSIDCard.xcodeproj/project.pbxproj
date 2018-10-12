@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C5DD2B216D9D3000413A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD2A216D9D3000413A6A /* AppDelegate.m */; };
+		66C5DD2E216D9D3000413A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD2D216D9D3000413A6A /* ViewController.m */; };
+		66C5DD31216D9D3000413A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD2F216D9D3000413A6A /* Main.storyboard */; };
+		66C5DD33216D9D3100413A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD32216D9D3100413A6A /* Assets.xcassets */; };
+		66C5DD36216D9D3100413A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD34216D9D3100413A6A /* LaunchScreen.storyboard */; };
+		66C5DD39216D9D3100413A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD38216D9D3100413A6A /* main.m */; };
+		66C5DD43216D9D3200413A6A /* JSIDCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD42216D9D3200413A6A /* JSIDCardTests.m */; };
+		66C5DD4E216D9D3200413A6A /* JSIDCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD4D216D9D3200413A6A /* JSIDCardUITests.m */; };
+		66D7BE3B216DA05800FAE319 /* JSIDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7BE39216DA05800FAE319 /* JSIDCardViewController.m */; };
+		66D7BE42216DA74800FAE319 /* Target_JSIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7BE41216DA74800FAE319 /* Target_JSIDCard.m */; };
+		F2A4EC50EFAC74A3A6938F36 /* Pods_JSIDCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C5DD3F216D9D3200413A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C5DD1E216D9D3000413A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C5DD25216D9D3000413A6A;
+			remoteInfo = JSIDCard;
+		};
+		66C5DD4A216D9D3200413A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C5DD1E216D9D3000413A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C5DD25216D9D3000413A6A;
+			remoteInfo = JSIDCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD26216D9D3000413A6A /* JSIDCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSIDCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD29216D9D3000413A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66C5DD2A216D9D3000413A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66C5DD2C216D9D3000413A6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66C5DD2D216D9D3000413A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66C5DD30216D9D3000413A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C5DD32216D9D3100413A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C5DD35216D9D3100413A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C5DD37216D9D3100413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C5DD38216D9D3100413A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C5DD3E216D9D3200413A6A /* JSIDCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSIDCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD42216D9D3200413A6A /* JSIDCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSIDCardTests.m; sourceTree = "<group>"; };
+		66C5DD44216D9D3200413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C5DD49216D9D3200413A6A /* JSIDCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSIDCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD4D216D9D3200413A6A /* JSIDCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSIDCardUITests.m; sourceTree = "<group>"; };
+		66C5DD4F216D9D3200413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D7BE39216DA05800FAE319 /* JSIDCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSIDCardViewController.m; sourceTree = "<group>"; };
+		66D7BE3A216DA05800FAE319 /* JSIDCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSIDCardViewController.h; sourceTree = "<group>"; };
+		66D7BE40216DA74800FAE319 /* Target_JSIDCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_JSIDCard.h; sourceTree = "<group>"; };
+		66D7BE41216DA74800FAE319 /* Target_JSIDCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_JSIDCard.m; sourceTree = "<group>"; };
+		B486FA0C84843E7A51F83D37 /* Pods-JSIDCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSIDCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E826FBA0F78C71606EDB69 /* Pods-JSIDCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSIDCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C5DD23216D9D3000413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A4EC50EFAC74A3A6938F36 /* Pods_JSIDCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD3B216D9D3200413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD46216D9D3200413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5007FA23C21686098AC70C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B486FA0C84843E7A51F83D37 /* Pods-JSIDCard.debug.xcconfig */,
+				E5E826FBA0F78C71606EDB69 /* Pods-JSIDCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66C5DD1D216D9D3000413A6A = {
+			isa = PBXGroup;
+			children = (
+				66C5DD28216D9D3000413A6A /* JSIDCard */,
+				66C5DD41216D9D3200413A6A /* JSIDCardTests */,
+				66C5DD4C216D9D3200413A6A /* JSIDCardUITests */,
+				66C5DD27216D9D3000413A6A /* Products */,
+				5007FA23C21686098AC70C99 /* Pods */,
+				A23C95C3C1A48CAF11CEDE54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C5DD27216D9D3000413A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD26216D9D3000413A6A /* JSIDCard.app */,
+				66C5DD3E216D9D3200413A6A /* JSIDCardTests.xctest */,
+				66C5DD49216D9D3200413A6A /* JSIDCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C5DD28216D9D3000413A6A /* JSIDCard */ = {
+			isa = PBXGroup;
+			children = (
+				66D7BE38216DA05800FAE319 /* JSIDCard */,
+				66C5DD29216D9D3000413A6A /* AppDelegate.h */,
+				66C5DD2A216D9D3000413A6A /* AppDelegate.m */,
+				66C5DD2C216D9D3000413A6A /* ViewController.h */,
+				66C5DD2D216D9D3000413A6A /* ViewController.m */,
+				66C5DD2F216D9D3000413A6A /* Main.storyboard */,
+				66C5DD32216D9D3100413A6A /* Assets.xcassets */,
+				66C5DD34216D9D3100413A6A /* LaunchScreen.storyboard */,
+				66C5DD37216D9D3100413A6A /* Info.plist */,
+				66C5DD38216D9D3100413A6A /* main.m */,
+			);
+			path = JSIDCard;
+			sourceTree = "<group>";
+		};
+		66C5DD41216D9D3200413A6A /* JSIDCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD42216D9D3200413A6A /* JSIDCardTests.m */,
+				66C5DD44216D9D3200413A6A /* Info.plist */,
+			);
+			path = JSIDCardTests;
+			sourceTree = "<group>";
+		};
+		66C5DD4C216D9D3200413A6A /* JSIDCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD4D216D9D3200413A6A /* JSIDCardUITests.m */,
+				66C5DD4F216D9D3200413A6A /* Info.plist */,
+			);
+			path = JSIDCardUITests;
+			sourceTree = "<group>";
+		};
+		66D7BE38216DA05800FAE319 /* JSIDCard */ = {
+			isa = PBXGroup;
+			children = (
+				66D7BE3F216DA6F800FAE319 /* Targets */,
+				66D7BE39216DA05800FAE319 /* JSIDCardViewController.m */,
+				66D7BE3A216DA05800FAE319 /* JSIDCardViewController.h */,
+			);
+			path = JSIDCard;
+			sourceTree = "<group>";
+		};
+		66D7BE3F216DA6F800FAE319 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				66D7BE40216DA74800FAE319 /* Target_JSIDCard.h */,
+				66D7BE41216DA74800FAE319 /* Target_JSIDCard.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		A23C95C3C1A48CAF11CEDE54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C5DD25216D9D3000413A6A /* JSIDCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD52216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCard" */;
+			buildPhases = (
+				076DE5199BD601F8BBAD061D /* [CP] Check Pods Manifest.lock */,
+				66C5DD22216D9D3000413A6A /* Sources */,
+				66C5DD23216D9D3000413A6A /* Frameworks */,
+				66C5DD24216D9D3000413A6A /* Resources */,
+				F20C7D916D750210AAF16CFC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSIDCard;
+			productName = JSIDCard;
+			productReference = 66C5DD26216D9D3000413A6A /* JSIDCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C5DD3D216D9D3200413A6A /* JSIDCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD55216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCardTests" */;
+			buildPhases = (
+				66C5DD3A216D9D3200413A6A /* Sources */,
+				66C5DD3B216D9D3200413A6A /* Frameworks */,
+				66C5DD3C216D9D3200413A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C5DD40216D9D3200413A6A /* PBXTargetDependency */,
+			);
+			name = JSIDCardTests;
+			productName = JSIDCardTests;
+			productReference = 66C5DD3E216D9D3200413A6A /* JSIDCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C5DD48216D9D3200413A6A /* JSIDCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD58216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCardUITests" */;
+			buildPhases = (
+				66C5DD45216D9D3200413A6A /* Sources */,
+				66C5DD46216D9D3200413A6A /* Frameworks */,
+				66C5DD47216D9D3200413A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C5DD4B216D9D3200413A6A /* PBXTargetDependency */,
+			);
+			name = JSIDCardUITests;
+			productName = JSIDCardUITests;
+			productReference = 66C5DD49216D9D3200413A6A /* JSIDCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C5DD1E216D9D3000413A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ccj;
+				TargetAttributes = {
+					66C5DD25216D9D3000413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					66C5DD3D216D9D3200413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C5DD25216D9D3000413A6A;
+					};
+					66C5DD48216D9D3200413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C5DD25216D9D3000413A6A;
+					};
+				};
+			};
+			buildConfigurationList = 66C5DD21216D9D3000413A6A /* Build configuration list for PBXProject "JSIDCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C5DD1D216D9D3000413A6A;
+			productRefGroup = 66C5DD27216D9D3000413A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C5DD25216D9D3000413A6A /* JSIDCard */,
+				66C5DD3D216D9D3200413A6A /* JSIDCardTests */,
+				66C5DD48216D9D3200413A6A /* JSIDCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C5DD24216D9D3000413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD36216D9D3100413A6A /* LaunchScreen.storyboard in Resources */,
+				66C5DD33216D9D3100413A6A /* Assets.xcassets in Resources */,
+				66C5DD31216D9D3000413A6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD3C216D9D3200413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD47216D9D3200413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		076DE5199BD601F8BBAD061D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSIDCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20C7D916D750210AAF16CFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/JSCardInfo_Category/JSCardInfo_Category.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSCardInfo_Category.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C5DD22216D9D3000413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD2E216D9D3000413A6A /* ViewController.m in Sources */,
+				66C5DD39216D9D3100413A6A /* main.m in Sources */,
+				66D7BE3B216DA05800FAE319 /* JSIDCardViewController.m in Sources */,
+				66C5DD2B216D9D3000413A6A /* AppDelegate.m in Sources */,
+				66D7BE42216DA74800FAE319 /* Target_JSIDCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD3A216D9D3200413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD43216D9D3200413A6A /* JSIDCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD45216D9D3200413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD4E216D9D3200413A6A /* JSIDCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C5DD40216D9D3200413A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C5DD25216D9D3000413A6A /* JSIDCard */;
+			targetProxy = 66C5DD3F216D9D3200413A6A /* PBXContainerItemProxy */;
+		};
+		66C5DD4B216D9D3200413A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C5DD25216D9D3000413A6A /* JSIDCard */;
+			targetProxy = 66C5DD4A216D9D3200413A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C5DD2F216D9D3000413A6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C5DD30216D9D3000413A6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C5DD34216D9D3100413A6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C5DD35216D9D3100413A6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C5DD50216D9D3200413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C5DD51216D9D3200413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C5DD53216D9D3200413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B486FA0C84843E7A51F83D37 /* Pods-JSIDCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66C5DD54216D9D3200413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E826FBA0F78C71606EDB69 /* Pods-JSIDCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66C5DD56216D9D3200413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSIDCard.app/JSIDCard";
+			};
+			name = Debug;
+		};
+		66C5DD57216D9D3200413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSIDCard.app/JSIDCard";
+			};
+			name = Release;
+		};
+		66C5DD59216D9D3200413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSIDCard;
+			};
+			name = Debug;
+		};
+		66C5DD5A216D9D3200413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenghuangjinfu.FengYingXin.JSIDCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSIDCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C5DD21216D9D3000413A6A /* Build configuration list for PBXProject "JSIDCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD50216D9D3200413A6A /* Debug */,
+				66C5DD51216D9D3200413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD52216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD53216D9D3200413A6A /* Debug */,
+				66C5DD54216D9D3200413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD55216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD56216D9D3200413A6A /* Debug */,
+				66C5DD57216D9D3200413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD58216D9D3200413A6A /* Build configuration list for PBXNativeTarget "JSIDCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD59216D9D3200413A6A /* Debug */,
+				66C5DD5A216D9D3200413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C5DD1E216D9D3000413A6A /* Project object */;
+}
