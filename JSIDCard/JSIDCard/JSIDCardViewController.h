@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "FYUserChip.h"
 
 @interface JSIDCardViewController : UIViewController
 
-//- (instancetype)initWithUserChip:(FYUserChip*) usrChip;
+- (instancetype)initWithUserChip:(NSString *) usrChip;
 
 @end

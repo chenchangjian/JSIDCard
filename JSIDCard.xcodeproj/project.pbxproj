@@ -17,7 +17,7 @@
 		66C5DD4E216D9D3200413A6A /* JSIDCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD4D216D9D3200413A6A /* JSIDCardUITests.m */; };
 		66D7BE3B216DA05800FAE319 /* JSIDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7BE39216DA05800FAE319 /* JSIDCardViewController.m */; };
 		66D7BE42216DA74800FAE319 /* Target_JSIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7BE41216DA74800FAE319 /* Target_JSIDCard.m */; };
-		F2A4EC50EFAC74A3A6938F36 /* Pods_JSIDCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */; };
+		7D8BC42B20FD0D8C9DB01007 /* libPods-JSIDCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CEDDC1E69409932FFC131C /* libPods-JSIDCard.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CEDDC1E69409932FFC131C /* libPods-JSIDCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSIDCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C5DD26216D9D3000413A6A /* JSIDCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSIDCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C5DD29216D9D3000413A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66C5DD2A216D9D3000413A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A4EC50EFAC74A3A6938F36 /* Pods_JSIDCard.framework in Frameworks */,
+				7D8BC42B20FD0D8C9DB01007 /* libPods-JSIDCard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +177,7 @@
 		A23C95C3C1A48CAF11CEDE54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36BF6FB3C48D06C021ED329B /* Pods_JSIDCard.framework */,
+				34CEDDC1E69409932FFC131C /* libPods-JSIDCard.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				66C5DD22216D9D3000413A6A /* Sources */,
 				66C5DD23216D9D3000413A6A /* Frameworks */,
 				66C5DD24216D9D3000413A6A /* Resources */,
-				F20C7D916D750210AAF16CFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,26 +328,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F20C7D916D750210AAF16CFC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/JSCardInfo_Category/JSCardInfo_Category.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSCardInfo_Category.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard/Pods-JSIDCard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

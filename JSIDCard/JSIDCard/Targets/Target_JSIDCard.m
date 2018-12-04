@@ -11,7 +11,11 @@
 
 @implementation Target_JSIDCard
 - (UIViewController *)Action_JSIDCardViewController:(NSDictionary *)params{
-//    JSIDCardViewController *idcardVC = [[JSIDCardViewController alloc] initWithUserChip:params[@"userChip"]];
+    JSIDCardViewController *idcardVC = [[JSIDCardViewController alloc] initWithUserChip:params[@"userChip"]];
+    return idcardVC;
+}
+
+- (UIViewController *)Action_JSIDCardViewControllerToJSCardInfoVC:(NSDictionary *)params {
     JSIDCardViewController *idcardVC = [[JSIDCardViewController alloc] init];
     return idcardVC;
 }
